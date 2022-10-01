@@ -1,6 +1,6 @@
-from utils.customer import customer_reg
-from utils.location import customer_location
-from utils.consumption import customer_cons
+from models.customer import customer_reg
+from models.location import customer_location
+from models.consumption import customer_cons
 from statistics import fmean
 from time import sleep
 
